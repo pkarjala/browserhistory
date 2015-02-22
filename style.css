@@ -13,3 +13,35 @@ img {
   float: left;
   margin-right: 10px;
 }
+
+div.menu {
+  width: 100%;
+  margin-left: 100px;
+}
+div.menu a {
+  padding: 0 20px 0 20px;
+  width: 200px;
+}
+
+article {
+  width: 100%;
+}
+
+
+div.section2 {
+  display: inline-block;
+  width: 300px;
+}
+
+div.section3 {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+}
+
+div.section4 {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+}
+
