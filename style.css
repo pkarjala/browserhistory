@@ -1,6 +1,6 @@
 body {
-  color: #00008b;
-  background-color: #fffff0;
+  color: #ffffff;
+  background-color: #000;
   font-family: "Open Sans", sans-serif;
   margin: 10px 50px 10px 50px;
 }
@@ -14,15 +14,13 @@ img {
   margin-right: 10px;
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0 50px 0 50px;
+img.home {
+  width: 300px;
+  height: 300px;
 }
 
-nav li {
-  display: inline;
-  padding-right: 75px;
+nav {
+  columns: 3, 300px;
 }
 
 .left {
