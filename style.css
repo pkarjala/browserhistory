@@ -1,12 +1,9 @@
 body {
-  color: #00008b;
-  background-color: #fffff0;
-  font-family: "Open Sans", sans-serif;
-  margin: 10px 50px 10px 50px;
+  padding-top: 70px;  /* Move body of page below navbar. */
 }
 
-h1, h2 {
-  font-family: "Oswald", sans-serif;
+.page-content {
+  text-align: center;
 }
 
 img {
@@ -14,29 +11,3 @@ img {
   margin-right: 10px;
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0 50px 0 50px;
-}
-
-nav li {
-  display: inline;
-  padding-right: 75px;
-}
-
-.left {
-  float: left;
-  width: 300px;
-}
-
-.center {
-  padding: 0 10px 0 10px;
-  width: 300px;
-  display: inline-block;
-}
-
-.right {
-  float: right;
-  width: 300px;
-}
